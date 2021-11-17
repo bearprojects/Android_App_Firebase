@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edtEmail"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="輸入Email帳號"
+            android:inputType="textEmailAddress"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="132dp"
+            tools:layout_editor_absoluteY="73dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edtPassword"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="輸入密碼"
+            android:inputType="textPassword"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="132dp"
+            tools:layout_editor_absoluteY="144dp" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/pwd_visible"
+            android:text=""
+            android:textOff=""
+            android:textOn="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btnTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editText"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@layout/btnstyle"
+                android:text="登入"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:text="其他方式登入"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="40dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnFB"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/fb" />
+
+            <Button
+                android:id="@+id/btnGoogle"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:background="@drawable/google" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnForget"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:text="忘記密碼"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="16dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="#dd5320b0"></View>
+
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:text="立即註冊"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
