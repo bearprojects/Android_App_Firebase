@@ -1,4 +1,9 @@
-# Android_App_Firebase
+# Android_App_Firebase (部分文件)
+
+* MainActivity：主畫面
+* LoginActivity：登入
+* ForgetPwActivity：忘記密碼
+* RegisterActivity：註冊帳號
 
 * Result
 
