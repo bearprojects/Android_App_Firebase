@@ -5,7 +5,7 @@
 * ForgetPwActivity：忘記密碼
 * RegisterActivity：註冊帳號
 
-     
+　　　　　
 * Result
 
 ![image](https://github.com/bearprojects/Android_App_Firebase/blob/8230ccdf791d6b790466189516aa24fd7faf58d6/Firebase_1.jpg)
