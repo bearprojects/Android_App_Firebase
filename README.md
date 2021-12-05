@@ -4,7 +4,6 @@
 * LoginActivity：登入
 * ForgetPwActivity：忘記密碼
 * RegisterActivity：註冊帳號
-
 　　　　　
 * Result
 
